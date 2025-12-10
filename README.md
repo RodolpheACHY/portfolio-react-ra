@@ -1,36 +1,172 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🌐 Portfolio frontend React – Rodolphe ACHY
 
-## Getting Started
+Portfolio personnel développé avec **Next.js 14**, **TailwindCSS** et **Framer Motion**, conçu pour présenter mes projets, mon parcours professionnel ainsi que mes compétences techniques.  
 
-First, run the development server:
+Ce site met en avant une interface moderne, fluide, responsive et optimisée.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 🚀 Démo en ligne    
+👉 **Live Demo** : *`https://rodolphe-portfolio.netlify.app`*
+👉 **Repository** : https://github.com/RodolpheACHY/portfolio-react-ra
+
+---
+
+## 🛠️ Technologies utilisées
+
+Ce portfolio est construit avec une stack moderne :
+
+| Technologie | Rôle |
+|------------|------|
+| **Next.js 14** | Framework principal (routing App Router, optimisation, server components) |
+| **React** | Base du framework utilisé par Next.js |
+| **App Router** | Système de navigation intégré de Next.js |
+| **TailwindCSS** | Framework CSS utility-first |
+| **Framer Motion** | Animations modernes, fluides et performantes |
+| **EmailJS** | Soumission du formulaire de contact sans backend |
+| **Shadcn/UI (composants UI)** | Utilisé pour les composants dans components/ui/ |
+
+---
+
+## 📁 Structure du projet
+
+```
+portfolio-react/
+│── .next/
+│── app/
+│    ├── contact/           # Page Contact
+│    ├── resume/            # Page CV / Compétences
+│    ├── work/              # Page Projets
+│    ├── favicon.ico
+│    ├── globals.css        # Styles globaux
+│	 ├── layout.js          # Layout principal
+│    └── page.jsx           # Page d'accueil
+├── components/
+│    ├── ui/                # Composants UI shadcn
+│    │ ├── button.jsx
+│    │ ├── input.jsx
+│    │ ├── scroll-area.jsx
+│    │ ├── select.jsx
+│    │ ├── sheet.jsx
+│    │ ├── tabs.jsx
+│    │ ├── textarea.jsx
+│    │ └── tooltip.jsx
+│    ├── Header.jsx
+│    ├── MobileNav.jsx
+│    ├── Nav.jsx
+│    ├── PageTransition.jsx
+│    ├── Photo.jsx
+│    ├── Social.jsx
+│    ├── Stairs.jsx
+│    ├── StairTransition.jsx
+│    ├── Stats.jsx
+│    └── Social.jsx
+├── lib/
+├── node_modules/
+├── public/
+├── .env
+├── .gitignore
+├── components.json
+├── jsconfig.json
+├── next.config.mjs
+├── package-lock.json
+├── package.json
+├── postcss.config.js
+├── postcss.config.mjs
+├── README.md
+└── tailwind.config.js
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### ✨ Fonctionnalités
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- 🏠 **Page d'accueil animée** avec transitions fluides
 
-## Learn More
+- 👨‍💼 **Page CV / Skills** : compétences, expériences, stats visuelles
 
-To learn more about Next.js, take a look at the following resources:
+- 🛠️ **Page Projets** : présentation de réalisations avec animations
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- ✉️ **Formulaire de contact via EmailJS**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- 📱 **Responsive design complet**
 
-## Deploy on Vercel
+- 🎞️ **Transitions entre les pages** (PageTransition / StairTransition)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- 🌗 **UI moderne avec composants shadcn/ui**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- ⚡ Optimisation Next.js (Static Rendering + App Router)
+
+---
+
+## 🚀 Installation & Développement 
+
+### 1. Cloner le projet
+
+```
+git clone https://github.com/RodolpheACHY/portfolio-react-ra.git
+cd portfolio-react-ra
+```
+
+### 2. Installer les dépendances
+
+```
+npm install
+```
+
+### 3. Ajouter les variables d’environnement
+
+Créer un fichier .env
+
+```
+NEXT_PUBLIC_EMAILJS_SERVICE_ID=xxx
+NEXT_PUBLIC_EMAILJS_TEMPLATE_ID=xxx
+NEXT_PUBLIC_EMAILJS_PUBLIC_KEY=xxx
+
+```
+
+### 4. Lancer le serveur de développement
+
+```
+npm run dev
+```
+
+Le site sera accessible via :
+👉 http://localhost:5173/
+
+### 5. Build pour la production
+
+```
+npm run build
+```
+
+### 6. Lancer la version Buildée
+
+```
+npm start
+```
+
+### 7. Vérifier les erreurs avec ESLint
+
+```
+npm run lint
+```
+
+---
+
+## ℹ️ À propos de ce portfolio  
+
+Ce portfolio a été réalisé en m’appuyant sur un tutoriel afin de structurer la base du projet (Next.js, TailwindCSS et animations).
+J’y ai ensuite apporté mes propres ajustements : choix du design, contenu, navigation, sections, optimisation, intégration EmailJS et personnalisation des animations.
+
+Cette approche reflète ma capacité à **adapter un template**, comprendre une architecture moderne et la modifier pour créer une identité visuelle qui me ressemble.
+
+## 📄 Licence
+
+Projet sous licence **MIT** — libre d’utilisation et de modification
+
+---
+
+👤 Auteur
+
+**Rodolphe ACHY**
+GitHub : https://github.com/RodolpheACHY
+Développeur Front-end passionné.
