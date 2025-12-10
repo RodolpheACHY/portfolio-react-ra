@@ -5,7 +5,7 @@ Portfolio personnel développé avec **Next.js 14**, **TailwindCSS** et **Framer
 Ce site met en avant une interface moderne, fluide, responsive et optimisée.
 
 ## 🚀 Démo en ligne    
-👉 **Live Demo** : *`https://rodolphe-portfolio.netlify.app`*
+👉 **Live Demo** : *`https://rodolphe-portfolio.netlify.app`*  
 👉 **Repository** : https://github.com/RodolpheACHY/portfolio-react-ra
 
 ---
@@ -77,23 +77,16 @@ portfolio-react/
 
 ---
 
-### ✨ Fonctionnalités
+## ✨ Fonctionnalités
 
 - 🏠 **Page d'accueil animée** avec transitions fluides
-
 - 👨‍💼 **Page CV / Skills** : compétences, expériences, stats visuelles
-
 - 🛠️ **Page Projets** : présentation de réalisations avec animations
-
 - ✉️ **Formulaire de contact via EmailJS**
-
 - 📱 **Responsive design complet**
-
 - 🎞️ **Transitions entre les pages** (PageTransition / StairTransition)
-
 - 🌗 **UI moderne avec composants shadcn/ui**
-
-- ⚡ Optimisation Next.js (Static Rendering + App Router)
+- ⚡ **Optimisation Next.js** (Static Rendering + App Router)
 
 ---
 
@@ -168,5 +161,5 @@ Projet sous licence **MIT** — libre d’utilisation et de modification
 👤 Auteur
 
 **Rodolphe ACHY**
-GitHub : https://github.com/RodolpheACHY
+GitHub : https://github.com/RodolpheACHY  
 Développeur Front-end passionné.
