@@ -50,6 +50,12 @@ const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     
+    // Vérification AVANT d'appeler EmailJS
+    if (!formData.message.trim()) {
+      toast.error("Le message ne peut pas être vide.");
+      return;
+    }
+
     // EmailJS
     const serviceID = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID;
     const templateID = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID;
@@ -65,11 +71,6 @@ const Contact = () => {
       };
 
       const res = await emailjs.send(serviceID, templateID, emailParams, userID)
-
-      if (!formData.message.trim()) {
-        toast.error("Le message ne peut pas être vide.");
-        return;
-      }
 
       if (res.status === 200) {
         toast.success("Message sent successfully!");
