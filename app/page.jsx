@@ -24,7 +24,7 @@ const Home = () => {
             
             <div className="flex flex-col xl:flex-row items-center gap-8">
               <a
-                href="https://drive.google.com/file/d/1XkTwahftuzC0DvjrZ7oLkAqGHwtjjG6G/view"
+                href="https://drive.google.com/file/d/1KpAeDzn3c4jzKSXrogivoWS4ZY8LtzHM/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
               >
