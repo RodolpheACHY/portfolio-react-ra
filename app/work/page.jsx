@@ -92,7 +92,7 @@ const projects = [
     description: "Dans le cadre de ce projet, j'ai developpé une page profil utilisateur complète en React pour une application d’analytics sportif. L’interface présente les performances quotidiennes grâce à des graphes interactifs construits avec Recharts (activités, intensité, score, calories). La version déployée utilise des données mockées pour garantir la stabilité, tandis que le projet GitHub permet de basculer facilement vers les données de l’API réelle pour un usage en conditions production.",
     stack: [{ name: "React" }, { name: "Recharts" }, { name: "Axios" }, { name: "React Router" },],
     image: "/assets/work/thumb11.png",
-    live: "https://project-10-bank-front-end-pm97.vercel.app/",
+    live: "https://sport-see-front-one.vercel.app/",
     github: "https://github.com/RodolpheACHY/SportSeeFront",
   },
   {
