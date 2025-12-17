@@ -13,11 +13,11 @@ const Home = () => {
         <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24">
           {/* text */}
           <div className="text-center xl:text-left order-2 xl:order-none">
-            <span>Developer FrontEnd React</span>
-            <h1 className="h1">
+            <span className="block mb-4">Developer FrontEnd React</span>
+            <h1 className="h1 mb-8">
               Hello I'm <br /> <span className="text-accent">Rodolphe Achy</span>
             </h1>
-            <p className="max-w-[500px] mb-9 text-white/80">
+            <p className="max-w-[500px] mb-16 text-white/80">
               Développeur Frontend React, je crée des interfaces modernes et réactives. Mes projets réalisés avec OpenClassrooms m’ont permis d’acquérir une vraie autonomie. Curieux et motivé, je suis prêt à mettre mes compétences au service de votre équipe
             </p>
             {/* btn and socials */}
